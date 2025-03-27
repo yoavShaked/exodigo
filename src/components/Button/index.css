@@ -1,0 +1,27 @@
+.primary-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #dde2eb;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #4d6186;
+}
+
+.primary-button:active {
+  background-color: #4d6186;
+}
+
+.primary-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.5);
+}

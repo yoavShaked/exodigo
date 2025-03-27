@@ -1,0 +1,29 @@
+.dynamic-inputs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  max-height: 110px;
+  height: 100%;
+  overflow: auto;
+}
+
+.inputs-line {
+  display: flex;
+  gap: 10px;
+  .form-element {
+    input[type="text"] {
+      width: 60%;
+    }
+    justify-content: center;
+    display: flex;
+    align-items: anchor-center;
+  }
+}

@@ -1,0 +1,12 @@
+.cocktail-gallery-container {
+  display: flex;
+  gap: 10px;
+}
+.cocktails-grid {
+  height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}

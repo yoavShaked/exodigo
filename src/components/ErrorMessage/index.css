@@ -1,0 +1,12 @@
+.error-message {
+  color: #d8000c;
+  margin-top: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+
+  &:before {
+    content: "⚠️";
+    margin-right: 8px;
+  }
+}
